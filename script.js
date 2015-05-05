@@ -4,7 +4,6 @@ document.getElementById('incorrect').addEventListener('click', function() {
 	for (var i = 0; i < x.length; i++) {
 		var sel_x = x[i];
 		sel_x.classList.add('show_x');
-		console.log(sel_x);
 	}
 	document.getElementById('strike').play();
 	setTimeout(function() {
@@ -17,8 +16,8 @@ document.getElementById('incorrect').addEventListener('click', function() {
 document.getElementById('main').addEventListener('click', function(e) {
 	if (e.target.nodeName === 'LI') {
 		var ans_box = e.target.children[0];
-		console.log(ans_box);
 		if (ans_box.className.indexOf('answer_show') === -1) {
+			e.target.classList.add('right_answer');
 			ans_box.classList.add('answer_show');
 			document.getElementById('bell').play();
 		}

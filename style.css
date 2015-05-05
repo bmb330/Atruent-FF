@@ -88,6 +88,7 @@ li {
 	border-right: .2rem solid #58595B;
 	padding: 1rem;
 	background-color: #2F81B6;
+	transition: background-color .2s ease;
 }
 
 li:last-of-type {
@@ -100,10 +101,17 @@ li.covered {
 
 .answer {
 	visibility: hidden;
+	opacity: 0;
+	transition: opacity .5s ease;
+}
+
+.right_answer {
+	background-color: #3D9AD2;
 }
 
 span.answer_show {
 	visibility: visible;
+	opacity: 1;
 }
 
 div.show_x {
