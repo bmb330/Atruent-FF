@@ -1,0 +1,156 @@
+body {
+	font: 14px/1.8 'Ubuntu', 'Lucida Sans Unicode', 'Lucida Grande', Tahoma, Arial, sans-serif;
+	color: #FFF;
+	background-image: url("polka-20-30.png");
+}
+
+header {
+	background-color: #4D4D4D;
+	text-align: center;
+	position: fixed;
+	min-width: 100%;
+	z-index: 999;
+}
+
+img {
+	padding: 1rem 3rem;
+}
+
+img#atruent {
+	max-height: 125px;
+}
+
+img#fflogo {
+	max-height: 125px;
+}
+
+div#main {
+	max-width: 1140px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 205px;
+}
+
+button#incorrect {
+	color: red;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	width: 60px;
+	height: 60px;
+	z-index: 99;
+	border-radius: 20px;
+	font-size: 36px;
+	font-weight: 700;
+	outline: none;
+}
+
+.incorrect_x {
+	font-size: 38rem;
+	color: #F00;
+	position: absolute;
+	z-index: 99;
+	display: none;
+}
+
+section {
+	padding: 4rem;
+	position: relative;
+}
+
+h2 {
+	font-size: 2.2rem;
+	padding: 2rem 1rem;
+	text-align: center;
+	background-color: #58595B;
+	border-radius: 30px 30px 0 0;
+}
+
+ol {
+	position: relative;
+	border-collapse: collapse;
+	counter-reset: ol-counter;
+}
+
+li:before {
+	content: counter(ol-counter);
+	counter-increment: ol-counter;
+	position: absolute;
+	left: 1rem;
+
+}
+
+li {
+	font-size: 1.8em;
+	text-align: center;
+	border-top: .2rem solid #58595B;
+	border-left: .2rem solid #58595B;
+	border-right: .2rem solid #58595B;
+	padding: 1rem;
+	background-color: #2F81B6;
+}
+
+li:last-of-type {
+	border-bottom: .2rem solid #58595B;
+}
+
+li.covered {
+	background-color: #1C4E6D;
+}
+
+.answer {
+	visibility: hidden;
+}
+
+span.answer_show {
+	visibility: visible;
+}
+
+div.show_x {
+	display: block;
+}
+
+@media screen and (max-width: 591px) {
+	header {
+		display: flex;
+	}
+	.incorrect_x {
+		top: 50px;
+	}
+}
+
+
+@media screen and (min-width: 591px) and (max-width: 684px) {
+	.incorrect_x {
+		top: 50px;
+		left: 120px;
+	}
+}
+
+@media screen and (min-width: 684px) and (max-width: 884px) {
+	.incorrect_x {
+		top: 0px;
+		left: 180px;
+	}
+}
+
+@media screen and (min-width: 884px) and (max-width: 995px) {
+	.incorrect_x {
+		top: -50px;
+		left: 220px;
+	}
+}
+
+@media screen and (min-width: 995px) and (max-width: 1100px) {
+	.incorrect_x {
+		left: 340px;
+		top: -60px;
+	}
+}
+
+@media screen and (min-width: 1100px) {
+	.incorrect_x {
+		top: -70px;
+		left: 380px;
+	}
+}

@@ -1,0 +1,475 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"dar",
+				"darkerFour"
+			],
+			[
+				"da",
+				"darkerTwo"
+			],
+			[
+				"darkerT",
+				"darkerTwo"
+			],
+			[
+				"darker",
+				"darkerTwo"
+			],
+			[
+				"mari",
+				"margin"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"inl",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2221,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 1870,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "document.getElementById('incorrect').addEventListener('click', function() {\n	\n});",
+			"file": "script.js",
+			"file_size": 0,
+			"file_write_time": 130752680277078376,
+			"settings":
+			{
+				"buffer_size": 81,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "reset.css",
+			"settings":
+			{
+				"buffer_size": 1092,
+				"line_ending": "Windows",
+				"name": "/* http://meyerweb.com/eric/tools/css/reset/"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 360.0,
+		"last_filter": "inst",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"packin",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"jshin",
+				"JSHint: Set Linting Preferences"
+			],
+			[
+				"jshi",
+				"JSHint"
+			],
+			[
+				"jshint",
+				"JSHint"
+			],
+			[
+				"Pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 348.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Projects/Workj/Atruent-FF"
+	],
+	"file_history":
+	[
+		"/D/Projects/Udacity/RWDF/Start/main.css",
+		"/D/Projects/Udacity/RWDF/Start/index.html",
+		"/D/Projects/Udacity/RWDF/main.css",
+		"/D/Projects/Udacity/RWDF/index.html",
+		"/D/Projects/bmb330.github.io/index.html",
+		"/D/Projects/Udacity/RWDF/pattern-mostly-fluid-quiz-blankcss.html",
+		"/D/Projects/edx/bootstrap/index.html",
+		"/D/Projects/my-site/css/skeleton.css",
+		"/C/Users/bbraun/_viminfo",
+		"/D/Projects/my-site/index.html",
+		"/C/Users/bbraun/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/D/bbraun/Dropbox/IdeaProjects/FinalProject/HuntingGame1 2/out/production/HuntingGame/HuntingGame.bat",
+		"/D/Projects/bmb330.github.io/css/style.css",
+		"/D/Projects/echaSketch/index.html",
+		"/D/Projects/echaSketch/style.css",
+		"/D/Projects/echaSketch/script.js",
+		"/D/Projects/Workj/Varia Misc.js",
+		"/C/Users/bbraun/AppData/Roaming/Sublime Text 3/Packages/JSHint Gutter/.jshintrc",
+		"/D/bbraun/Downloads/jquery-1.11.2.min.js",
+		"/D/CSIT211/Exercise5.java",
+		"/C/Users/bbraun/Desktop/holiday-email.html",
+		"/C/Users/bbraun/Desktop/html_email.html",
+		"/C/Users/bbraun/Desktop/test.html",
+		"/C/Users/bbraun/Desktop/email.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"70px",
+			"600px",
+			"%\n",
+			"3D9AD2",
+			"1C4E6D",
+			"888",
+			";\n",
+			"350x350",
+			"150x150",
+			"nav",
+			"Railway",
+			"^(\\s+)",
+			"this",
+			"name",
+			"https://origin.ih",
+			"0067b3",
+			"e8eff7",
+			"0067b1",
+			"bae8ff",
+			"ACC",
+			"About Computing",
+			"About Computing &amp;&nbsp;Consulting, LLC",
+			"About Computing &amp;&nbsp;Consulting, LLC.",
+			"About Computing"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\1\\1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2221,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2119,
+								2119
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 124.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1870,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1463,
+								1463
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 81,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								77,
+								77
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "reset.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1092,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1092,
+								1092
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/* http://meyerweb.com/eric/tools/css/reset/",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Atruent-FF.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 108.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
