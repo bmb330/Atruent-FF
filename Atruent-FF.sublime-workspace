@@ -63,7 +63,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2221,
+				"buffer_size": 2401,
 				"line_ending": "Windows"
 			}
 		},
@@ -71,18 +71,7 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 1870,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "document.getElementById('incorrect').addEventListener('click', function() {\n	\n});",
-			"file": "script.js",
-			"file_size": 0,
-			"file_write_time": 130752680277078376,
-			"settings":
-			{
-				"buffer_size": 81,
+				"buffer_size": 2345,
 				"line_ending": "Windows"
 			}
 		},
@@ -93,6 +82,14 @@
 				"buffer_size": 1092,
 				"line_ending": "Windows",
 				"name": "/* http://meyerweb.com/eric/tools/css/reset/"
+			}
+		},
+		{
+			"file": "script.js",
+			"settings":
+			{
+				"buffer_size": 729,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -181,10 +178,12 @@
 	],
 	"file_history":
 	[
-		"/D/Projects/Udacity/RWDF/Start/main.css",
 		"/D/Projects/Udacity/RWDF/Start/index.html",
-		"/D/Projects/Udacity/RWDF/main.css",
 		"/D/Projects/Udacity/RWDF/index.html",
+		"/D/Projects/Workj/Atruent-FF/script.js",
+		"/D/Projects/Workj/Atruent-FF/style.css",
+		"/D/Projects/Udacity/RWDF/Start/main.css",
+		"/D/Projects/Udacity/RWDF/main.css",
 		"/D/Projects/bmb330.github.io/index.html",
 		"/D/Projects/Udacity/RWDF/pattern-mostly-fluid-quiz-blankcss.html",
 		"/D/Projects/edx/bootstrap/index.html",
@@ -208,7 +207,7 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 46.0
 	},
 	"find_in_files":
 	{
@@ -222,6 +221,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			");\n",
+			"== ",
+			"answer",
 			"70px",
 			"600px",
 			"%\n",
@@ -264,7 +266,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -273,27 +275,28 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2221,
+						"buffer_size": 2401,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2119,
-								2119
+								634,
+								634
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 124.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -302,59 +305,31 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1870,
+						"buffer_size": 2345,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1463,
-								1463
+								1485,
+								1485
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1108.0,
+						"translation.y": 585.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "script.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 81,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								77,
-								77
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "reset.css",
 					"semi_transient": false,
 					"settings":
@@ -366,8 +341,8 @@
 						"selection":
 						[
 							[
-								1092,
-								1092
+								863,
+								863
 							]
 						],
 						"settings":
@@ -380,7 +355,37 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 729,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								133,
+								133
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -467,7 +472,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 108.0,
+	"side_bar_width": 113.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
