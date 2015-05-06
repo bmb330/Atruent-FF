@@ -1,0 +1,32 @@
+body{
+	margin: 10%;
+	background-color: #4D4D4D;
+	font: 14px/1.8 'Ubuntu', 'Lucida Sans Unicode', 'Lucida Grande', Tahoma, Arial, sans-serif;
+	color: #FFF;
+}
+
+div {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+img {
+	min-height: 200px;
+}
+
+@media screen and (min-width: 1372px) {
+	#atruent {
+		padding-bottom: 20px;
+		padding-right: 10px;
+	}
+}
+
+h1 {
+	font-size: 4rem;
+	margin: 4rem;
+}
+
+h2 {
+	font-size: 3rem;
+}
