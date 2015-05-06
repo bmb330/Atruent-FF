@@ -63,8 +63,27 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2401,
+				"buffer_size": 2488,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "/*\n After you have changed the settings at \"Your code goes here\",\n run this with one of these options:\n  \"grunt\" alone creates a new, completed images directory\n  \"grunt clean\" removes the images directory\n  \"grunt responsive_images\" re-processes images without removing the old ones\n*/\n\nmodule.exports = function(grunt) {\n\n  grunt.initConfig({\n    responsive_images: {\n      dev: {\n        options: {\n          engine: 'im',\n          sizes: [{\n            width: ,\n            suffix: ,\n            quality:\n          }]\n        },\n\n        /*\n        You don't need to change this part if you don't change\n        the directory structure.\n        */\n        files: [{\n          expand: true,\n          src: ['*.{gif,jpg,png}'],\n          cwd: 'images_src/',\n          dest: 'images/'\n        }]\n      }\n    },\n\n    /* Clear out the images directory if it exists */\n    clean: {\n      dev: {\n        src: ['images'],\n      },\n    },\n\n    /* Generate the images directory if it is missing */\n    mkdir: {\n      dev: {\n        options: {\n          create: ['images']\n        },\n      },\n    },\n\n    /* Copy the \"fixed\" images that don't go through processing into the images/directory */\n    copy: {\n      dev: {\n        files: [{\n          expand: true,\n          src: 'images_src/fixed/*.{gif,jpg,png}',\n          dest: 'images/'\n        }]\n      },\n    },\n  });\n  \n  grunt.loadNpmTasks('grunt-responsive-images');\n  grunt.loadNpmTasks('grunt-contrib-clean');\n  grunt.loadNpmTasks('grunt-contrib-copy');\n  grunt.loadNpmTasks('grunt-mkdir');\n  grunt.registerTask('default', ['clean', 'mkdir', 'copy', 'responsive_images']);\n\n};\n",
+			"file": "/D/Projects/Udacity/Project-Part-1-Start/Gruntfile.js",
+			"file_size": 1698,
+			"file_write_time": 130753536411295875,
+			"settings":
+			{
+				"buffer_size": 1629,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/Projects/Udacity/Project-Part-1-Start/README.md",
+			"settings":
+			{
+				"buffer_size": 1655,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -178,6 +197,10 @@
 	],
 	"file_history":
 	[
+		"/D/Projects/Udacity/Project-Part-1-Start/package.json",
+		"/D/bbraun/Downloads/convert (1).sh",
+		"/D/Projects/Udacity/RespImg/Gruntfile.js",
+		"/D/Projects/Udacity/RespImg/package.json",
 		"/D/Projects/Udacity/RWDF/Start/index.html",
 		"/D/Projects/Udacity/RWDF/index.html",
 		"/D/Projects/Workj/Atruent-FF/script.js",
@@ -207,7 +230,7 @@
 	],
 	"find":
 	{
-		"height": 46.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -266,7 +289,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -275,15 +298,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2401,
+						"buffer_size": 2488,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								634,
-								634
+								2147,
+								2147
 							]
 						],
 						"settings":
@@ -296,11 +319,70 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "/D/Projects/Udacity/Project-Part-1-Start/Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1629,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								595,
+								596
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/Projects/Udacity/Project-Part-1-Start/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1655,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "style.css",
 					"semi_transient": false,
 					"settings":
@@ -325,11 +407,11 @@
 						"translation.y": 585.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 4,
 					"file": "reset.css",
 					"semi_transient": false,
 					"settings":
@@ -355,11 +437,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 5,
 					"file": "script.js",
 					"semi_transient": false,
 					"settings":
@@ -385,7 +467,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
